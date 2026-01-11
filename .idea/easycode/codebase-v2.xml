@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/src/main/java/com/jpademo/Main.java" />
+    <option name="forceFullIndex" value="false" />
+    <option name="fileSummaryMaps" value="{&quot;D:/DSA/88.Merge_Sort_Array&quot;:&quot;{\&quot;/src/main/java/com/jpademo/Main.java\&quot;:\&quot;This file does not contain any classes. It contains the following functions:\\n\\n`main`: This function takes user input, finds the first, second, and third maximum values in the input array, and prints the third maximum value.\\n\\nThe file is a Java program that finds the third maximum value in an array of integers entered by the user.\&quot;}&quot;}" />
+    <option name="fileSkeletonMaps" value="{&quot;D:/DSA/88.Merge_Sort_Array&quot;:&quot;{\&quot;/src/main/java/com/jpademo/Main.java\&quot;:{\&quot;file_path\&quot;:\&quot;/src/main/java/com/jpademo/Main.java\&quot;,\&quot;file_name\&quot;:\&quot;Main.java\&quot;,\&quot;methods\&quot;:[{\&quot;method_name\&quot;:\&quot;main\&quot;,\&quot;method_parameters\&quot;:\&quot;(String[] args)\&quot;,\&quot;parameter_declarations\&quot;:[{\&quot;type\&quot;:\&quot;\&quot;,\&quot;name\&quot;:\&quot;args\&quot;}],\&quot;return_type\&quot;:\&quot;void\&quot;,\&quot;scope\&quot;:[[7,4],[39,5]]}]}}&quot;}" />
+  </component>
+</project>
