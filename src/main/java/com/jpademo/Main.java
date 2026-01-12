@@ -44,8 +44,12 @@ public class Main {
                 .filter(a -> a.length() > 3)
                 .collect(Collectors.toList());
         System.out.println(longWords);
+
+        List<String> lo = animal.stream().toList();
     }
 }
+
+
 //
 //        public int missingNumber(int[] nums) {
 //            int n=nums.length;
