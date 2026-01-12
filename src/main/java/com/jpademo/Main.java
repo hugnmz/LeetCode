@@ -48,7 +48,8 @@ public class Main {
         List<String> lo = animal.stream().toList();
     }
 }
-
+//ádasdasdasdasdaqsd
+//ádadhiuqwdhg
 
 //
 //        public int missingNumber(int[] nums) {
