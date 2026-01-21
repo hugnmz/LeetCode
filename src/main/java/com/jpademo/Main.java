@@ -40,5 +40,38 @@ public class Main {
     }
 
 }
+/*
+class Solution {
+    public boolean validPalindrome(String s) {
+        int n = s.length();
+        int i = 0;
+        int j = n -1;
+        while(i < j){
+            if(s.charAt(i) != s.charAt(j)){
+                String r = s.substring(0, i) + s.substring(i + 1);
+                String r1 = s.substring(0, j) + s.substring(j + 1);
+                if(!checkPali(r) && !checkPali(r1)) return false;
+            }else{
+                i++; j--;
+            }
+        }
+
+        return true;
+    }
+
+    private boolean checkPali(String string){
+        int m = string.length() - 1;
+        int i = 0;
+        int j =m;
+        while(i < j){
+            if(string.charAt(i) != string.charAt(j)) return false;
+            else{
+                ++i; --j;
+            }
+        }
+        return true;
+    }
+}
+ */
 
 //sdfsdf
