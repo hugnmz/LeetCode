@@ -50,10 +50,11 @@ class Solution {
             if(s.charAt(i) != s.charAt(j)){
                 String r = s.substring(0, i) + s.substring(i + 1);
                 String r1 = s.substring(0, j) + s.substring(j + 1);
-                if(!checkPali(r) && !checkPali(r1)) return false;
-            }else{
-                i++; j--;
+                return checkPali(r) || checkPali(r1);
+
+
             }
+            i++; j--;
         }
 
         return true;
